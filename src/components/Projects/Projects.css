@@ -1,0 +1,10 @@
+.projects_container {
+  padding-bottom: 100px;
+  padding-top: 100px;
+  background-color: #fafafa;
+}
+
+.projects_heading {
+  font-size: 80px;
+  font-family: Roboto;
+}

@@ -1,0 +1,34 @@
+.navbar_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px; 
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: black;
+}
+
+.navbar_heading {
+  text-decoration: none;
+  background: none;
+  border: none;
+  font-family: arial, sans-serif;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+.navbar_routes-container {
+  color: white;
+}
+
+.navbar_routes {
+  text-decoration: none;
+  background: none;
+  border: none;
+  font-family: arial, sans-serif;
+  cursor: pointer;
+  margin-left: 25px;
+  font-size: 20px;
+}

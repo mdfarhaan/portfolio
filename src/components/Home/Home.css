@@ -1,0 +1,25 @@
+.home_container {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 120px;
+  background-color: #fafafa;
+}
+
+.home_heading {
+  font-size: 60px;
+  font-family: Roboto;
+  padding-top: 100px;
+}
+
+.home_subheading {
+  font-family: Roboto;
+  font-size: 35px;
+}
+
+.home_user-avatar {
+  width: 700px;
+  height: 700px;
+  padding-left: 200px;
+  padding-bottom: 20px;
+}

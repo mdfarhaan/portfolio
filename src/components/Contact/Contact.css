@@ -1,0 +1,47 @@
+.contact_container {
+  margin: 0;
+  padding-bottom: 100px;
+  padding-top: 50px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+.contact_heading {
+  font-size: 80px;
+  font-family: Roboto;
+}
+.contact_content {
+  display: flex;
+  justify-content: space-around;
+  padding-right: 150px;
+}
+.contact_info-data {
+  display: flex;
+}
+
+.contact_info-mail {
+  display: flex;
+}
+.contact_icon-text {
+  font-size: 30px;
+  font-family: Roboto;
+  font-weight: normal;
+  color: white;
+}
+.conatct_mailto {
+  text-decoration: none;
+  background: none;
+  border: none;
+  font-family: Roboto;
+  color: white;
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.contact_icon-btn {
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
