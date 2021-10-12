@@ -2,14 +2,8 @@ import React from "react";
 import "./Home.css";
 import avatar from "../assets/av1.png";
 import Gradient from "rgt";
-import { useMediaQuery } from "react-responsive";
 
 function Home() {
-  const isDesktopOrLaptop = useMediaQuery({
-    query: "(min-width: 1224px)",
-  });
-  const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1224px)" });
-
   return (
     <div className="home_container" id="Home-section">
       <div className="home_content">
