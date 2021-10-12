@@ -4,8 +4,13 @@ import Gradient from "rgt";
 import { IoLogoLinkedin, IoLogoGithub } from "react-icons/io";
 import { AiOutlineMail } from "react-icons/ai";
 import { MdLocationPin } from "react-icons/md";
+import { useMediaQuery } from "react-responsive";
 
 function Contact() {
+  const isDesktopOrLaptop = useMediaQuery({
+    query: "(min-width: 1224px)",
+  });
+  const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1224px)" });
   return (
     <div className="contact_container" id="Contact-section">
       <center>
@@ -23,17 +28,27 @@ function Contact() {
         </div>
 
         <div className="contact_info-mail">
-          <AiOutlineMail size={75} color="white" />
-          <button
-            className="conatct_mailto"
+          <AiOutlineMail
+            size={75}
+            color="white"
             onClick={() =>
               window.open(
                 "https://mail.google.com/mail/u/0/?fs=1&to=farhaanm110@gmail.com&tf=cm"
               )
             }
-          >
-            farhaanm110@gmail.com
-          </button>
+          />
+          {isDesktopOrLaptop && (
+            <button
+              className="conatct_mailto"
+              onClick={() =>
+                window.open(
+                  "https://mail.google.com/mail/u/0/?fs=1&to=farhaanm110@gmail.com&tf=cm"
+                )
+              }
+            >
+              farhaanm110@gmail.com
+            </button>
+          )}
         </div>
 
         <div>

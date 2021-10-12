@@ -8,3 +8,9 @@
   font-size: 80px;
   font-family: Roboto;
 }
+
+@media (max-width: 1224px) {
+  .projects_container {
+    width: 105vh;
+  }
+}

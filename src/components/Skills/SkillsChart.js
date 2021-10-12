@@ -26,7 +26,7 @@ function SkillsChart(props) {
   };
   return (
     <motion.div whileHover={{ scale: 1.1 }}>
-      <div style={{ paddingLeft: 40 }}>
+      <div style={{ padding: 30 }}>
         <div className="chart_container">
           <p className="chart_title">{props.data.title}</p>
           <Doughnut data={data} options={options} />

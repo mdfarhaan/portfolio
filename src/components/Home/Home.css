@@ -4,6 +4,7 @@
   padding-top: 100px;
   padding-bottom: 120px;
   background-color: #fafafa;
+  width: 100%;
 }
 
 .home_heading {
@@ -22,4 +23,23 @@
   height: 700px;
   padding-left: 200px;
   padding-bottom: 20px;
+}
+@media (max-width: 1224px) {
+  .home_container {
+    width: 105vh;
+    flex-direction: column;
+    place-items: center;
+    padding-bottom: 50px;
+  }
+  .home_heading {
+    padding-left: 20px;
+    padding-top: 0px;
+  }
+  .home_subheading {
+    padding-left: 20px;
+  }
+  .home_user-avatar {
+    padding-left: 100px;
+    padding-bottom: 0px;
+  }
 }

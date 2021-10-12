@@ -21,7 +21,7 @@
   font-family: Roboto;
   font-size: 25px;
   text-align: left;
-  max-width: 800px;
+  padding-right: 20px;
 }
 
 .section_tags-container {
@@ -59,4 +59,7 @@
 
 .section_link-logo {
   cursor: pointer;
+}
+
+@media (max-width: 1224px) {
 }
