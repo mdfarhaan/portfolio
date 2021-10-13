@@ -71,7 +71,7 @@ function Projects() {
             Projects
           </Gradient>
         </h1>
-        <div>
+        <div className="projects_section">
           {projectsData.map((item, index) => {
             return <Section project={item} key={index} />;
           })}

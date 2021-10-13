@@ -34,4 +34,7 @@
   .skills_container {
     width: 105vh;
   }
+  .skills_charts-container {
+    padding-left: 40px;
+  }
 }
