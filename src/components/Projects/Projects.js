@@ -15,12 +15,8 @@ function Projects() {
   const projectsData = [
     {
       heading: "Crypto Portfolio Tracker",
-      para: " so much So much contetent that it flows out of the job and punch a lazy brown foxSo much contetent that it flows out of the job and punch  lazy brown fox",
+      para: "Crypto Portfolio Tracker using the WazirX API. Manage your Profits, Losses, Valuation, Transaction and Assets all at one place.",
       tags: [
-        {
-          tag: "React",
-          color: color.React,
-        },
         {
           tag: "NextJs",
           color: color.NextJs,
@@ -35,7 +31,7 @@ function Projects() {
     },
     {
       heading: "Expense Tracker",
-      para: " so much So much contetent that it flows out of the job and punch a lazy brown foxSo much contetent that it flows out of the job and punch  lazy brown fox",
+      para: "Expense Tracker app using Django for the backend and React Native for the frontend",
       tags: [
         {
           tag: "ReactNative",
@@ -51,7 +47,7 @@ function Projects() {
     },
     {
       heading: "Instagram Bot",
-      para: " so much So much contetent that it flows out of the job and punch a lazy brown foxSo much contetent that it flows out of the job and punch  lazy brown fox",
+      para: "Instagram hashtag liking bot in Python without the Instagram Api",
       tags: [
         {
           tag: "Python",
@@ -60,6 +56,22 @@ function Projects() {
       ],
 
       link: "https://github.com/mdfarhaan/instagram-bot",
+    },
+    {
+      heading: "Tweet",
+      para: "A simple forum like web app using Django for the backend and React for the frontend.",
+      tags: [
+        {
+          tag: "React",
+          color: color.React,
+        },
+        {
+          tag: "Django",
+          color: color.Django,
+        },
+      ],
+
+      link: "https://github.com/mdfarhaan/tweet-django-react",
     },
   ];
 

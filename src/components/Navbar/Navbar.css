@@ -32,8 +32,34 @@
   margin-left: 25px;
   font-size: 20px;
 }
+
+.navbar_menu-btn {
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.navbar_close-btn {
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding-left: 150px;
+}
+
 @media (max-width: 1224px) {
   .navbar_container {
     width: 105vh;
+  }
+  .navbar_heading {
+    font-size: 42px;
+  }
+  .navbar_routes-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar_routes {
+    font-size: 35px;
+    padding: 10px;
   }
 }

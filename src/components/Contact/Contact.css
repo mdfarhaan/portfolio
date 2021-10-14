@@ -51,6 +51,9 @@
     width: 110vh;
   }
   .contact_content {
-    padding-right: 100px;
+    padding: 0px;
+  }
+  .contact_info-data {
+    display: none;
   }
 }

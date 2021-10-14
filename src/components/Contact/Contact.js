@@ -26,17 +26,18 @@ function Contact() {
           <h1 className="contact_icon-text">Chennai,Tamilnadu</h1>
         </div>
 
-        <div className="contact_info-mail">
-          <AiOutlineMail
-            size={75}
-            color="white"
-            onClick={() =>
-              window.open(
-                "https://mail.google.com/mail/u/0/?fs=1&to=farhaanm110@gmail.com&tf=cm"
-              )
-            }
-          />
-          {isDesktopOrLaptop && (
+        {isDesktopOrLaptop && (
+          <div className="contact_info-mail">
+            <AiOutlineMail
+              size={75}
+              color="white"
+              onClick={() =>
+                window.open(
+                  "https://mail.google.com/mail/u/0/?fs=1&to=farhaanm110@gmail.com&tf=cm"
+                )
+              }
+            />
+
             <button
               className="conatct_mailto"
               onClick={() =>
@@ -47,8 +48,8 @@ function Contact() {
             >
               farhaanm110@gmail.com
             </button>
-          )}
-        </div>
+          </div>
+        )}
 
         <div>
           <button
@@ -65,6 +66,17 @@ function Contact() {
           >
             <IoLogoLinkedin size={60} color="white" />
           </button>
+          {!isDesktopOrLaptop && (
+            <AiOutlineMail
+              size={60}
+              color="white"
+              onClick={() =>
+                window.open(
+                  "https://mail.google.com/mail/u/0/?fs=1&to=farhaanm110@gmail.com&tf=cm"
+                )
+              }
+            />
+          )}
         </div>
       </div>
     </div>
