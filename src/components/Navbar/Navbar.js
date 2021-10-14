@@ -37,7 +37,7 @@ function Navbar() {
                   to={route + "-section"}
                   spy={true}
                   smooth={true}
-                  offset={-70}
+                  offset={-50}
                   duration={700}
                   className="navbar_routes"
                   key={index}
