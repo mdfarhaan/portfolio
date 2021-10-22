@@ -1,8 +1,9 @@
 .navbar_container {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 1;
   background-color: black;
@@ -21,6 +22,7 @@
 
 .navbar_routes-container {
   color: white;
+  margin-right: 45px;
 }
 
 .navbar_routes {
@@ -47,10 +49,7 @@
   padding-left: 150px;
 }
 
-@media (max-width: 1224px) {
-  .navbar_container {
-    width: 105vh;
-  }
+@media (max-width: 950px) {
   .navbar_heading {
     font-size: 42px;
   }

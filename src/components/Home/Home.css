@@ -1,27 +1,31 @@
 .home_container {
   display: flex;
   justify-content: center;
-  padding-top: 100px;
+  padding-top: 150px;
   padding-bottom: 120px;
   background-color: #fafafa;
-  width: 100%;
+  width: 100vw;
+}
+
+.home_content {
+  margin-left: 2vw;
 }
 
 .home_heading {
-  font-size: 60px;
+  font-size: 7vh;
   font-family: Roboto;
   padding-top: 100px;
 }
 
 .home_subheading {
   font-family: Roboto;
-  font-size: 35px;
+  font-size: 4vh;
 }
 
 .home_user-avatar {
   width: 700px;
-  height: 700px;
-  padding-left: 200px;
+  aspect-ratio: 1;
+  padding-left: 5vw;
   padding-bottom: 20px;
 }
 .contact_icon-btn {
@@ -32,7 +36,6 @@
 }
 @media (max-width: 1224px) {
   .home_container {
-    width: 105vh;
     flex-direction: column;
     place-items: center;
     padding-bottom: 50px;

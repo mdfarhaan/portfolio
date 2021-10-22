@@ -6,9 +6,9 @@ import { useMediaQuery } from "react-responsive";
 
 function Skills() {
   const isDesktopOrLaptop = useMediaQuery({
-    query: "(min-width: 1224px)",
+    query: "(min-width: 1684px)",
   });
-  const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1224px)" });
+  const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1684px)" });
 
   const chartData = [
     {

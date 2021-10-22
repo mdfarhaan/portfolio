@@ -5,6 +5,7 @@
   background-color: black;
   display: flex;
   flex-direction: column;
+  width: 100vw;
 }
 .contact_heading {
   font-size: 80px;
@@ -47,9 +48,6 @@
 }
 
 @media (max-width: 1224px) {
-  .contact_container {
-    width: 110vh;
-  }
   .contact_content {
     padding: 0px;
   }

@@ -9,9 +9,9 @@ function Navbar() {
   const [showMenu, setShowMenu] = useState("None");
 
   const isDesktopOrLaptop = useMediaQuery({
-    query: "(min-width: 1224px)",
+    query: "(min-width: 951px)",
   });
-  const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1224px)" });
+  const isTabletOrMobile = useMediaQuery({ query: "(max-width: 950px)" });
 
   const routes = ["Home", "About Me", "Skills", "Projects", "Contact"];
   return (

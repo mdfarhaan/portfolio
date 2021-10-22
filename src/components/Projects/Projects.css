@@ -2,21 +2,13 @@
   padding-bottom: 100px;
   padding-top: 100px;
   background-color: #fafafa;
+  width: 100vw;
 }
 
 .projects_heading {
-  font-size: 80px;
+  font-size: 9vh;
   font-family: Roboto;
 }
 
 @media (max-width: 1224px) {
-  .projects_container {
-    display: flex;
-    flex-direction: column;
-    place-items: center;
-    width: 105vh;
-  }
-  .projects_section {
-    padding-left: 40px;
-  }
 }
