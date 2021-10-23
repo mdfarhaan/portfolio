@@ -50,6 +50,9 @@
 }
 
 @media (max-width: 950px) {
+  .navbar_container {
+    width: 100vh;
+  }
   .navbar_heading {
     font-size: 40px;
   }
