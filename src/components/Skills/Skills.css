@@ -41,4 +41,7 @@
   .skills_container {
     width: 100vh;
   }
+  .skills_charts-container {
+    margin-left: 2vw;
+  }
 }
