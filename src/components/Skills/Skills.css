@@ -32,4 +32,13 @@
 }
 
 @media (max-width: 1224px) {
+  .skills_container {
+    width: 100vw;
+  }
+}
+
+@media (max-width: 850px) {
+  .skills_container {
+    width: 100vh;
+  }
 }

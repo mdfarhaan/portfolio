@@ -50,7 +50,7 @@ function Navbar() {
         )}
         {isTabletOrMobile && (
           <>
-            <div>
+            <div style={{ marginRight: 40 }}>
               {showMenu === "None" ? (
                 <button
                   className="navbar_menu-btn"

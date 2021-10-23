@@ -51,7 +51,7 @@
 
 @media (max-width: 950px) {
   .navbar_heading {
-    font-size: 42px;
+    font-size: 40px;
   }
   .navbar_routes-container {
     display: flex;

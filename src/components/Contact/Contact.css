@@ -48,10 +48,18 @@
 }
 
 @media (max-width: 1224px) {
+  .contact_container {
+    width: 100vw;
+  }
   .contact_content {
     padding: 0px;
   }
   .contact_info-data {
     display: none;
+  }
+}
+@media (max-width: 950px) {
+  .contact_container {
+    width: 100vh;
   }
 }

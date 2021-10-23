@@ -11,4 +11,13 @@
 }
 
 @media (max-width: 1224px) {
+  .projects_container {
+    width: 100vw;
+  }
+}
+
+@media (max-width: 950px) {
+  .projects_container {
+    width: 100vh;
+  }
 }
