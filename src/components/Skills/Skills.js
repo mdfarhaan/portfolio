@@ -18,7 +18,7 @@ function Skills() {
       borderColor: "rgba(255, 232, 115, 0.2)",
     },
     {
-      title: "React",
+      title: "ReactJS",
       data: 70,
       bgcolor: "rgba(54, 162, 235, 1)",
       borderColor: "rgba(54, 162, 235, 0.2)",
