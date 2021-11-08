@@ -7,12 +7,10 @@ function Home() {
     <div className="about_container" id="About Me-section">
       <center>
         <h1 className="about_heading">
-          /* Title */ 
           <Gradient dir="left-to-right" from="#02AAB0" to="#00CDAC">
             About
           </Gradient>
         </h1>
-        /* Description */ 
         <p className="about_subheading">
           I'm Mohammed Farhaan from Chennai, currently pursuing first year
           B-Tech Computer Science Engineering from SRMIST, Kattankulathur with
