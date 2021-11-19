@@ -14,8 +14,14 @@ function Skills() {
     {
       title: "Python",
       data: 60,
-      bgcolor: "rgba(255, 232, 115, 1)",
-      borderColor: "rgba(255, 232, 115, 0.2)",
+      bgcolor: "rgba(48, 105, 152, 1)",
+      borderColor: "rgba(48, 105, 152, 0.2)",
+    },
+    {
+      title: "Javascript",
+      data: 55,
+      bgcolor: "rgba(240, 219, 79, 1)",
+      borderColor: "rgba(240, 219, 79, 0.2)",
     },
     {
       title: "ReactJS",
@@ -29,12 +35,12 @@ function Skills() {
       bgcolor: "rgba(97, 219, 251, 1)",
       borderColor: "rgba(97, 219, 251, 0.2)",
     },
-    {
-      title: "UI/UX",
-      data: 50,
-      bgcolor: "rgba(255, 99, 132, 1)",
-      borderColor: "rgba(255, 99, 132, 0.2)",
-    },
+    // {
+    //   title: "UI/UX",
+    //   data: 50,
+    //   bgcolor: "rgba(255, 99, 132, 1)",
+    //   borderColor: "rgba(255, 99, 132, 0.2)",
+    // },
   ];
 
   const rows = [...Array(Math.ceil(chartData.length / 4))];
