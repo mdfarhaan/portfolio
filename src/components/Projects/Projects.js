@@ -10,6 +10,8 @@ function Projects() {
     NextJs: "rgba(255, 99, 132, 1)",
     Firebase: "rgba(255, 203, 43, 1)",
     Django: "rgba(103, 222, 171, 1)",
+    MongoDB: "rgba(77, 179, 61, 1)",
+    Flask: "rgba(75, 139, 190, 1)",
   };
 
   const projectsData = [
@@ -30,20 +32,20 @@ function Projects() {
       link: "https://github.com/mdfarhaan/cryptoflash-web",
     },
     {
-      heading: "Expense Tracker",
-      para: "Expense Tracker app using Django for the backend and React Native for the frontend",
+      heading: "Petrolon",
+      para: "Fuel Manager App for your Vehicles",
       tags: [
         {
           tag: "ReactNative",
           color: color.ReactNative,
         },
         {
-          tag: "Django",
-          color: color.Django,
+          tag: "MongoDB",
+          color: color.MongoDB,
         },
       ],
 
-      link: "https://github.com/mdfarhaan/expense-tracker-app",
+      link: "https://github.com/mdfarhaan/petrolon-app",
     },
     {
       heading: "Instagram Bot",
@@ -56,6 +58,22 @@ function Projects() {
       ],
 
       link: "https://github.com/mdfarhaan/instagram-bot",
+    },
+    {
+      heading: "Fuel Price API",
+      para: "Public API to get fuel price in India in JSON format",
+      tags: [
+        {
+          tag: "Python",
+          color: color.Python,
+        },
+        {
+          tag: "Flask",
+          color: color.Flask,
+        },
+      ],
+
+      link: "https://github.com/mdfarhaan/tweet-django-react",
     },
     {
       heading: "Tweet",
