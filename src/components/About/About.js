@@ -14,10 +14,9 @@ function Home() {
         <p className="about_subheading">
           I'm Mohammed Farhaan from Chennai, currently pursuing first year
           B-Tech Computer Science Engineering from SRMIST, Kattankulathur with
-          interest in programming, web development and graphic design. I am very
+          interest in programming, web development and cryptocurrency I am very
           passionate about technology and want to learn more. One word to
-          describe myself would be curious. My hobbies include reading books,
-          riding and binge watching.
+          describe myself would be curious.
         </p>
       </center>
     </div>

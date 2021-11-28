@@ -11,6 +11,7 @@ function Projects() {
     Firebase: "rgba(255, 203, 43, 1)",
     Django: "rgba(103, 222, 171, 1)",
     MongoDB: "rgba(77, 179, 61, 1)",
+    MERN: "rgba(77, 179, 61, 1)",
     Flask: "rgba(75, 139, 190, 1)",
   };
 
@@ -30,6 +31,18 @@ function Projects() {
       ],
 
       link: "https://github.com/mdfarhaan/cryptoflash-web",
+    },
+    {
+      heading: "Trym - URL Shortner",
+      para: "Shorten your url with TRYM choose your custom code to shorten your url how cool is that!",
+      tags: [
+        {
+          tag: "MERN",
+          color: color.MERN,
+        },
+      ],
+
+      link: "https://github.com/mdfarhaan/trym",
     },
     {
       heading: "Petrolon",

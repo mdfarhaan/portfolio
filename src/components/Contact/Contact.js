@@ -66,17 +66,6 @@ function Contact() {
           >
             <IoLogoLinkedin size={60} color="white" />
           </button>
-          {!isDesktopOrLaptop && (
-            <AiOutlineMail
-              size={60}
-              color="white"
-              onClick={() =>
-                window.open(
-                  "https://mail.google.com/mail/u/0/?fs=1&to=farhaanm110@gmail.com&tf=cm"
-                )
-              }
-            />
-          )}
         </div>
       </div>
     </div>
