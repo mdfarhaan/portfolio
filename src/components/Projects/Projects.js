@@ -13,6 +13,7 @@ function Projects() {
     MongoDB: "rgba(77, 179, 61, 1)",
     MERN: "rgba(77, 179, 61, 1)",
     Flask: "rgba(75, 139, 190, 1)",
+    TypeScript: "#007acc",
   };
 
   const projectsData = [
@@ -30,11 +31,27 @@ function Projects() {
         },
       ],
 
-      link: "https://github.com/mdfarhaan/cryptoflash-web",
+      link: "https://github.com/mdfarhaan/cryptoflash",
+    },
+    {
+      heading: "Flow - Cloud Share",
+      para: "Cloud sharing and storage service built using ReactJS, AWS S3 to store the uploaded files and TypeScript. Upload your file and get a link to share",
+      tags: [
+        {
+          tag: "MERN",
+          color: color.MERN,
+        },
+        {
+          tag: "TypeScript",
+          color: color.TypeScript,
+        },
+      ],
+
+      link: "https://github.com/mdfarhaan/flow",
     },
     {
       heading: "Trym - URL Shortner",
-      para: "Shorten your url with TRYM choose your custom code to shorten your url how cool is that!",
+      para: "Cloud sharing and storage service built using ReactJS, AWS S3 to store the uploaded files and TypeScript. Upload your file and get a link to share.",
       tags: [
         {
           tag: "MERN",

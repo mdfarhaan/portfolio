@@ -15,43 +15,45 @@ function Home() {
           </Gradient>
         </h1>
 
-        <p className="home_subheading">
-          I like to {""}
-          <Typical
-            loop={Infinity}
-            wrapper="b"
-            steps={[
-              "Code",
-              1000,
-              "Develop",
-              1000,
-              "Design",
-              1000,
-              "Read",
-              1000,
-              "Ride",
-              1000,
-            ]}
-          />
-        </p>
-        <div>
-          <button
-            className="contact_icon-btn "
-            onClick={() => window.open("https://github.com/mdfarhaan")}
-          >
-            <IoLogoGithub size={60} />
-          </button>
-          <button
-            className="contact_icon-btn "
-            onClick={() =>
-              window.open("https://www.linkedin.com/in/mdfarhaan/")
-            }
-          >
-            <IoLogoLinkedin size={60} />
-          </button>
+        <div style={{ display: "flex", justifyContent: "space-between" }}>
+          <p className="home_subheading">
+            I like to {""}
+            <Typical
+              loop={Infinity}
+              wrapper="b"
+              steps={[
+                "Code",
+                1000,
+                "Develop",
+                1000,
+                "Design",
+                1000,
+                "Read",
+                1000,
+                "Ride",
+                1000,
+              ]}
+            />
+          </p>
+          <div>
+            <button
+              className="contact_icon-btn "
+              onClick={() => window.open("https://github.com/mdfarhaan")}
+            >
+              <IoLogoGithub size={60} />
+            </button>
+            <button
+              className="contact_icon-btn "
+              onClick={() =>
+                window.open("https://www.linkedin.com/in/mdfarhaan/")
+              }
+            >
+              <IoLogoLinkedin size={60} />
+            </button>
+          </div>
         </div>
       </div>
-      <img src={avatar} className="home_user-avatar" alt="User"></img>
+      {/* <img src={avatar} className="home_user-avatar" alt="User"></img> */}
     </div>
   );
 }
