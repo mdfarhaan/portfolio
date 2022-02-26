@@ -51,7 +51,7 @@ function Projects() {
     },
     {
       heading: "Trym - URL Shortner",
-      para: "Cloud sharing and storage service built using ReactJS, AWS S3 to store the uploaded files and TypeScript. Upload your file and get a link to share.",
+      para: "Shorten your url with TRYM choose your custom code to shorten your url how cool is that!",
       tags: [
         {
           tag: "MERN",
